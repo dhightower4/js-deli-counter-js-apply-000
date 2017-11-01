@@ -15,7 +15,7 @@ function nowServing() {
 }
 
 function currentLine(katzDeliLine) {
-  newArray = []
+  var newArray = []
   for ( let i = 0; i < katzDeliLine.length; i++) {
     newArray.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
