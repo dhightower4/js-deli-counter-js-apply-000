@@ -19,5 +19,5 @@ function currentLine(katzDeliLine) {
   for ( let i = 0; i < katzDeliLine.length; i++) {
     newArray.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
-    return (`The line is currently:${newArray}.`)
+    return (`The line is currently: ${newArray}.`)
 }
