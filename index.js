@@ -16,8 +16,11 @@ function nowServing() {
 
 function currentLine(katzDeliLine) {
   var newArray = []
-  for ( let i = 0; i < katzDeliLine.length; i++) {
-    newArray.push(`${i + 1}. ${katzDeliLine[i]}`)
-  }
-    return (`The line is currently: ${newArray}.`)
+  if (katzDeliLine.length === 0) { 
+    return ("The lune is currently empty.")
+  } else {
+    for ( let i = 0; i < katzDeliLine.length; i++) {
+      newArray.push(`${i + 1}. ${katzDeliLine[i]}`)
+    }
+      return (`The line is currently: ${newArray}.`)
 }
