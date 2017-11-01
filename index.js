@@ -16,7 +16,7 @@ function nowServing() {
 
 function currentLine(katzDeliLine) {
   var newArray = []
-  if (katzDeliLine.length === 0) { 
+  if (katzDeliLine.length === 0) {
     return ("The lune is currently empty.")
   } else {
     for ( let i = 0; i < katzDeliLine.length; i++) {
